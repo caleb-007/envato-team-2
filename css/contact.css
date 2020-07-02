@@ -1,0 +1,56 @@
+.form h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  color: #0b1116;
+}
+
+.form input {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #121c25;
+  height: 4rem;
+}
+
+.form button {
+  background: #ebc154;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.send-btn {
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+}
+.send-btn:hover {
+  color: #ebc154;
+  background-color: #ffffff;
+  border: 1px solid #ebc154;
+}
+
+@media (max-width: 769px) {
+  #form-box {
+    padding-right: 0 !important;
+    margin-bottom: 3rem;
+  }
+  #image-box {
+    padding-left: 0 !important;
+  }
+}
+@media (max-width: 575px) {
+  #form-box {
+    padding: 0 2rem !important;
+  }
+  #image-box {
+    padding: 0 1rem !important;
+  }
+}

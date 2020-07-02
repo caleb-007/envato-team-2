@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS links-->
+    <link rel="stylesheet" href="./css/slick-theme.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <!-- HEADER SECTION STARTS HERE -->
+    <header>
+      <!-- NAVIGATION STARTS HERE -->
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand"
+            ><img
+              src="/images/login/logo.svg"
+              height="50px"
+              alt="Discover africa logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#responsiveNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="responsiveNavbar">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active mr-4">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="/faq.html" class="nav-link">FAQ</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="/tours.html" class="nav-link custom-link">Tours</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="/hotels.html" class="nav-link">Hotels</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="/about.html" class="nav-link">About Us</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="/contact.html" class="nav-link">Contact Us</a>
+              </li>
+              <li class="nav-item mr-4">
+                <a href="#" class="nav-link"><i class="fas fa-search"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION STARTS HERE -->
+    <section id="hero-section">
+      <!-- CAROUSEL WRAPPER-->
+      <div
+        id="carousel-thumb"
+        class="carousel slide carousel-fade carousel-thumbnails"
+        data-ride="carousel"
+      >
+        <!-- SLIDES -->
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item custom-carousel-img">
+            <div class="carousel-overlay first-slide"></div>
+            <div class="carousel-caption">
+              <h1 class="text-white text-center">Contact Us</h1>
+            </div>
+          </div>
+          <div class="carousel-item custom-carousel-img active">
+            <div class="carousel-overlay second-slide"></div>
+            <div class="carousel-caption">
+              <h1 class="text-white text-center">Contact Us</h1>
+            </div>
+          </div>
+          <div class="carousel-item custom-carousel-img">
+            <div class="carousel-overlay third-slide"></div>
+            <div class="carousel-caption">
+              <h1 class="text-white text-center">Contact Us</h1>
+            </div>
+          </div>
+        </div>
+        <!-- THUMBNAILS -->
+        <ol class="carousel-indicators large-circle">
+          <li data-target="#carousel-thumb" data-slide-to="0">
+            <img
+              class="d-block"
+              src="./images/home-sliders/luca-bravo-O453M2Liufs-unsplash.jpg"
+              alt="Africa"
+            />
+          </li>
+          <li data-target="#carousel-thumb" data-slide-to="1">
+            <img
+              class="d-block"
+              src="./images/home-sliders/matthias-mullie-u2-97eBhFEc-unsplash.jpg"
+              alt="Africa"
+            />
+          </li>
+          <li data-target="#carousel-thumb" data-slide-to="2">
+            <img
+              class="d-block"
+              src="./images/home-sliders/sarvaswa-tandon-GNTli-9g-Os-unsplash.jpg"
+              alt="Africa"
+            />
+          </li>
+        </ol>
+      </div>
+      <div class="scroll-button text-center">
+        <a href="#top-cities"><i class="fas fa-2x fa-angle-down"></i></a>
+      </div>
+    </section>
+
+    <main>
+      <div class="contact-form pb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-md-6 col-12 pr-5 pl-0" id="form-box">
+              <form action="POST" class="form">
+                <h1 class="text-capitalize mb-5">
+                  get in touch with us, and send us a message today!
+                </h1>
+                <div class="form-group mb-5">
+                  <input
+                    type="text"
+                    class="form-control text-capitalize px-4"
+                    placeholder="enter your full name"
+                  />
+                </div>
+                <div class="form-group mb-5">
+                  <input
+                    type="email"
+                    class="form-control px-4"
+                    placeholder="Enter Your Email Address"
+                  />
+                </div>
+                <div class="form-group mb-5">
+                  <input
+                    type="text"
+                    class="form-control px-4"
+                    placeholder="Message"
+                  />
+                </div>
+                <button class="text-uppercase py-3 px-5 btn send-btn">
+                  send message
+                </button>
+              </form>
+            </div>
+            <div class="col-xl-6 col-md-6 col-12 pl-5 pr-0" id="image-box">
+              <img
+                src="./images/contact/hotel.png"
+                alt="hotel"
+                class="w-100"
+                height="385px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="map">
+        <img src="./images/contact/map.png" alt="map" class="w-100" />
+      </div>
+    </main>
+    <footer class="text-center text-white" style="margin-top: 0px;">
+      <div class="container-fluid">
+        <h3 class="font-weight-bold">Subscribe To Our Newsletter</h3>
+        <div class="row justify-content-center mt-4">
+          <div class="col-7 col-md-4">
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              placeholder="Email"
+              aria-placeholder="Email"
+              name="name"
+            />
+          </div>
+          <div class="col-5 col-md-2">
+            <button class="btn btn-lg footer-btn">SUBSCRIBE</button>
+          </div>
+        </div>
+        <div class="footer-navigation mx-auto">
+          <div class="d-flex">
+            <a href="#" class="footer-logo">Discover Travel</a>
+            <ul class="footer-navs ml-auto">
+              <li class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold">Home</a>
+              </li>
+              <li class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold">FAQ</a>
+              </li>
+              <li class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold">Tours</a>
+              </li>
+              <li class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold">Hotels</a>
+              </li>
+              <li class="d-inline-block mr-3">
+                <a href="#" class="footer-nav-link font-weight-bold"
+                  >About Us</a
+                >
+              </li>
+              <li class="d-inline-block">
+                <a href="#" class="footer-nav-link font-weight-bold"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <hr />
+        </div>
+        <div class="social-icons d-flex justify-content-center mt-5">
+          <div class="mr-4 d-flex justify-content-center align-items-center">
+            <a href="#" class="social-links"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </div>
+          <div class="mr-4 d-flex justify-content-center align-items-center">
+            <a href="#" class="social-links"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <a href="#" class="social-links"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <p class="footer-text mx-auto text-white w-50 mt-4">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <p class="copyright-text text-center text-white mt-4">
+          2020 Discover Travel. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
